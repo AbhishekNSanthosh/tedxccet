@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    /* background-image: url('../../assets/bg.png'); */
+
+}
+
+.navbar {
+    /* margin: 2rem; */
+    /* background-color: #030000; */
+    z-index: 99999999;
+    width: 100%;
+}
+
+.navbarWrap {
+    margin: 0 2rem;
+    padding: 1rem;
+    /* background-color: #030000; */
+
+    z-index: 99999999;
+    width: 100%;
+}
+
+.navbarLeft {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex: 6;
+    width: 100%;
+}
+
+.navbarLeftItem {
+    display: flex;
+}
+
+.logoImg {
+    height: 3rem;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.bannerImg {
+    height: 10rem;
+}
+
+.progress {
+    display: flex;
+}
+
+.progressBox {
+    padding: 2rem;
+}
+
+.svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commingSoon{
+    height: 2.5rem;
+    position: absolute;
+    bottom: 2rem;
+}
+
+.comming{
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #EB0028;
+}
+
+.high{
+    color: #fff;
+}
+
+/* .progressCircle{
+    transform: rotate(90);
+    background-color: #fff;
+} */
